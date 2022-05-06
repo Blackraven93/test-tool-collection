@@ -1,3 +1,5 @@
+import 'regenerator-runtime';
+
 interface IOperator {
   (x: number, y: number): number;
 }
@@ -51,6 +53,3 @@ class Calculate implements ICalculate {
 }
 
 export default Calculate;
-
-const calculate = new Calculate(5, 10);
-console.log(calculate.plus());
