@@ -1,5 +1,4 @@
 import Calculate from '../build/calculation/calculate.js';
-import fetchData from '../build/api/async.js';
 
 const calc = new Calculate(10, 5);
 

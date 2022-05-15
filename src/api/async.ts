@@ -18,7 +18,7 @@ const request = () => {
   return response.then((res) => res.json());
 };
 
-const exec = async () => {
+export const exec = async () => {
   try {
     const text = await request();
   } catch (error) {
